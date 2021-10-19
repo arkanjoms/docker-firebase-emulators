@@ -1,7 +1,13 @@
 {
   "emulators": {
     "firestore": {
-      "port": 7002
+      "port": 7002,
+      "host": "0.0.0.0"
+    },
+    "ui": {
+      "port": 7000,
+      "enabled": true,
+      "host": "0.0.0.0"
     }
   }
 }
